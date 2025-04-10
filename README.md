@@ -1,8 +1,24 @@
 # CreditCardRisk_ML-QML
-This GitHub repository contains a set of tutorial-style scripts on machine learning and quantum machine learning, specifically tailored for credit card fraud classification.
+This GitHub repository contains a set of tutorial-style scripts on machine learning and quantum machine learning, specifically tailored for credit card fraud classification. 
 
-The datasets are acquired from  and also a lot of the coding strategies like what kind of classical benchmarks or classical machine learning techniques people use, these kind of things have been learnt from this :, to deal with imbalanced dataset, which is extremely common in rare-event simulation, i.e. those event which happen much frequently and are therefore do not have enough data. SOme techniques to handle such datsets : 
-The datasets used were sourced from this [Kaggle repository](https://www.kaggle.com/datasets/mishra5001/credit-card/code). Many of the coding strategies—such as the selection of classical benchmarks and commonly used machine learning techniques—were inspired by resources like this project:  https://www.kaggle.com/code/kshitijthareja/ml-project-credit-card-fraud-detection, which deals with handling imbalanced datasets. Class imbalance is a frequent challenge in rare-event simulations, where certain outcomes occur so infrequently that there is insufficient data to model them effectively. Several techniques for addressing imbalanced datasets were also explored through the following Kaggle notebooks: https://www.kaggle.com/code/kshitijthareja/ml-project-credit-card-fraud-detection, https://www.kaggle.com/code/marcinrutecki/smote-and-tomek-links-for-imbalanced-data, https://www.kaggle.com/code/marcinrutecki/best-techniques-and-metrics-for-imbalanced-dataset.  These resources were instrumental in shaping the approach taken in this project.
+
+The datasets are acquired from  and also a lot of the coding strategies like what kind of classical benchmarks or classical machine learning techniques people use, these kind of things have been learnt from this :, to deal with imbalanced dataset, which is extremely common in rare-event simulation, i.e. those event which happen much frequently and are therefore do not have enough data. Some techniques to handle such datsets : 
+
+The datasets used were sourced from this : [Kaggle repository](https://www.kaggle.com/datasets/mishra5001/credit-card/code). 
+
+
+Another dataset I used was given in the YouTube video by Karina : https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023/data
+
+I also generated an imbalanced synthetic Dataset, for the purpose of implementing the quantum methods because they were too slow for the large datasets coming from actual fraud detection scenario. 
+
+Many of the coding strategies—such as the selection of classical benchmarks and commonly used machine learning techniques—were inspired by resources like this project:  https://www.kaggle.com/code/kshitijthareja/ml-project-credit-card-fraud-detection, which deals with handling imbalanced datasets. Class imbalance is a frequent challenge in rare-event simulations, where certain outcomes occur so infrequently that there is insufficient data to model them effectively. 
+
+Several techniques for addressing imbalanced datasets were also explored through the following Kaggle notebooks: https://www.kaggle.com/code/kshitijthareja/ml-project-credit-card-fraud-detection, https://www.kaggle.com/code/marcinrutecki/smote-and-tomek-links-for-imbalanced-data, https://www.kaggle.com/code/marcinrutecki/best-techniques-and-metrics-for-imbalanced-dataset.  
+
+
+These resources were instrumental in shaping the approach taken in this project.
+
+
 One great resource to understand the difference of various machine learning approaches is available in https://pyimagesearch.com/2024/09/16/credit-card-fraud-detection-using-spectral-clustering/ 
 
 **Review**
@@ -33,3 +49,5 @@ https://www.youtube.com/watch?v=GSGM8iV8ZRU
 **Quantum Finance** : https://www.youtube.com/watch?v=6LITc_Rp5c4
 
 **Swiss Bank** : https://www.swissbanking.ch/_Resources/Persistent/2/8/0/e/280e835f95ee449a7306046260cb6b0bbd0736b2/Expert%20report%20for%20Quantum%20Computing%20in%20Banking.pdf
+
+
